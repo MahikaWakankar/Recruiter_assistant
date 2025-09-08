@@ -1,0 +1,45 @@
+# Repo-level gitignore for recruiter-assistant
+
+# Node
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+dist/
+build/
+client/dist/
+client/.vite/
+
+# Environment files
+.env
+server/.env
+client/.env
+.env.local
+.env.*.local
+
+# Google service account creds (avoid committing keys)
+recruiter-agent-468914-99824935d4de.json
+*.secret.json
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log
+yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+
+# Misc
+coverage/
+bower_components/

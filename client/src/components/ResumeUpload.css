@@ -1,0 +1,96 @@
+.resume-upload {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resume-upload-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 2rem;
+}
+
+.resume-upload-header {
+  margin-bottom: 1.5rem;
+}
+
+.resume-upload-title {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.resume-upload-description {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+.drive-link-input {
+  margin-bottom: 1rem;
+}
+
+.drive-link-input label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.scan-button {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: black;
+  font-weight: 500;
+  border: 2px solid black;
+  
+}
+
+.scan-button:hover:not(:disabled) {
+  background-color: var(--primary-hover);
+}
+
+.scan-button .loading-spinner {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.status-message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.status-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.status-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.status-message.info {
+  background-color: #cce5ff;
+  color: #004085;
+  border: 1px solid #b8daff;
+}
+
+/* Make the drive link input take full available width and look larger */
+.drive-link-input input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Allow a slightly wider card so the textbox appears longer on large screens */
+.resume-upload {
+  max-width: 1000px;
+}
